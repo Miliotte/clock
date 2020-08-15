@@ -1,5 +1,10 @@
 # ⏱️ Digital Clock
 
+<h1 align="center">
+    <img src="github/clock-github.gif" height="50%">
+</h1>
+
+
 ## 🔖 Sobre
 
 O projeto **Digital Clock** é um relogio desenvolvido em JavaScript.

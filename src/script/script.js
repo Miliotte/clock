@@ -1,5 +1,3 @@
-console.log("teste");
-
 function showTime(){
     var date = new Date();
     var h = date.getHours(); // 0 -23
@@ -21,10 +19,10 @@ function showTime(){
 
 
 
-    var time = h + ":" + m + ":" + s + session;
-    document.getElementById("MyclockDisplay").innerText = time;
-    document.getElementById("MyclockDisplay").textContent = time;
-
+    const time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+   
     setTimeout(showTime, 1000);
 }   
 
